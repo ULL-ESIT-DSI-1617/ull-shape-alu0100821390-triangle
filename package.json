@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "./node_modules/mocha/bin/mocha --require should"
   },
   "repository": {
     "type": "git",
@@ -22,9 +22,7 @@
   },
   "homepage": "https://github.com/ULL-ESIT-DSI-1617/ull-shape-alu0100821390-triangle#readme",
   "dependencies": {
-    "@alu0100821390/ull-shape": "^1.0.0"
-  },
-  "devDependencies": {
+    "@alu0100821390/ull-shape": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.6.3",
     "mocha": "^3.3.0",
