@@ -1,9 +1,10 @@
 {
   "name": "@alu0100821390/ull-shape-triangle",
   "version": "1.0.2",
-  "description": "",
+  "description": "Módulo simple que representa formas cuadradas.",
   "main": "index.js",
   "scripts": {
+    "doc": "documentation build index.js -f html -o docs",
     "test": "./node_modules/mocha/bin/mocha --require should"
   },
   "repository": {
@@ -22,7 +23,7 @@
   },
   "homepage": "https://github.com/ULL-ESIT-DSI-1617/ull-shape-alu0100821390-triangle#readme",
   "dependencies": {
-    "@alu0100821390/ull-shape": "^1.0.0",
+    "@alu0100821390/ull-shape": "^1.0.2",
     "gulp": "^3.9.1",
     "gulp-shell": "^0.6.3",
     "mocha": "^3.3.0",
