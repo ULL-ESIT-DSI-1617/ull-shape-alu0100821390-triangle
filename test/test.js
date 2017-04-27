@@ -1,3 +1,5 @@
+'use strict';
+
 let Triangle = require('../lib/triangle');
 
 describe ("getArea Triangle", function() {
