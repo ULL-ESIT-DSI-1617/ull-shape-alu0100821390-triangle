@@ -1,7 +1,7 @@
 {
   "name": "@alu0100821390/ull-shape-triangle",
   "version": "1.0.3",
-  "description": "Módulo simple que representa formas cuadradas.",
+  "description": "Módulo simple que representa formas triangulares.",
   "main": "index.js",
   "scripts": {
     "doc": "documentation build index.js -f html -o docs",
